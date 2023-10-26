@@ -1,0 +1,18 @@
+server:
+  port: 9000
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/hexagonal?useSSL=false&characterEncoding=UTF-8&serverTimezone=Asia/Seoul
+    username: ci_test
+    password: Abcd123@
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        show_sql: true
+        new_generator_mappings: true
+        dialect: org.hibernate.dialect.MySQL57Dialect
