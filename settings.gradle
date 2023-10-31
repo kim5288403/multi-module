@@ -1,6 +1,4 @@
 rootProject.name = 'multi-module'
 include 'application-core'
 include 'adapter-rest'
-include 'adapter-mysql'
-include 'persistence'
-
+include 'adapter-persistence'
