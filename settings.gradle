@@ -3,3 +3,6 @@ include 'application-core'
 include 'adapter-api'
 include 'adapter-persistence'
 include 'api-application'
+include 'admin-application'
+include 'adapter-admin'
+
