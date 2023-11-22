@@ -64,8 +64,6 @@
 
 프로젝트 구조는 다음과 같습니다:
 
-![multimodule.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2a542071-6033-414f-8789-bc0e2fc0decb/bc9a35bf-9232-4011-8c4c-93a92cdc613b/multimodule.png)
-
 - **admin-application, api-application:** 필요한 모듈들만 의존하여 서비스를 구성하여 스프링 부트(Spring Boot) 애플리케이션을 시작하는 모듈입니다.
 - **adapter-admin, adapter-api:** 어플리케이션과 어플리케이션 코어에 어뎁터 모듈입니다.
 - **application-core :** 핵심 부분 중 하나로, 비즈니스 로직 및 응용 프로그램의 핵심 기능을 포함하는 순수 자바(pojo)로 구성된 모듈입니다.
