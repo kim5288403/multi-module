@@ -9,6 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class AdminController {
     @RequestMapping(method = RequestMethod.GET, path = "")
     public String list() {
-        return "Hi Admin Test";
+        return "Hi Admin list Test";
+    }
+
+    @RequestMapping(method = RequestMethod.GET, path = "{id}")
+    public String detail() {
+        return "Hi Admin detail Test";
     }
 }
